@@ -1,22 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Thornhill Wellness Medical Clinic</title>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thornhill Wellness</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-</head>
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="./css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<!-- javascript -->
+	<script src="./js/navbar_burger.js"></script>
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
 
-<body>
-    <section id="content">
-        <h1>Thornhill Wellness Medical Clinic</h1>
-        <i> coming soon </i>
-        <p> Please feel free to get in touch
-            <a href="mailto:thornhillwellness@gmail.com">Send Email</a>
-        </p>
-    </section>
+  <body class="bg-home">
+	<!-- Navbar -->
+	<nav class="navbar is-fixed-top navbar-transparent" role="navigation" aria-label="main navigation">
+	  <div class="container">
+		<div class="navbar-brand">
+		  <a class="navbar-item" href="./index.html">
+			<span id="navbar-logo">
+			  Our Services
+			</span>
+		  </a>
+		  <div class="navbar-burger burger" data-target="navMenu" arial-label="menu" aria-expanded="false">
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+		  </div>
+		</div>
+
+		<div id="navMenu" class="navbar-menu">
+		  <div class="navbar-start">
+
+		  </div>
+		  <div class="navbar-end">
+			<a class="navbar-item is-tab is-active" href="./index.html">
+			  Home
+			</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+			  <!-- <a class="navbar-link" href="./rates-and-services.html"> -->
+			  <!--   Rates & Services -->
+			  <!-- </a> -->
+			  <!-- <div class="navbar-dropdown is-boxed"> -->
+			  <!--   <a class="navbar-item" href="./services.html"> -->
+			  <!--     Services -->
+			  <!--   </a> -->
+			  <!--   <a class="navbar-item" href="./manual-lymph-drainage.html"> -->
+			  <!--     Manual Lymph Drainage -->
+			  <!--   </a> -->
+			  <!--   <a class="navbar-item" href="./reiki-treatments.html"> -->
+			  <!--     Reiki Treatment -->
+			  <!--   </a> -->
+			  <!-- </div> -->
+			</div>
+			<div class="navbar-item is-tab"><!-- href="./contact-us.html" -->
+			  (416) 887-3478
+			</div>
+            <div class="navbar-item is-tab">
+              <a href="mailto:info@logoped.ca">info@logoped.ca</a>
+            </div>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+	<!-- /Navbar -->
+
+	<!-- parallax hero -->
+	<!-- <section class="hero"> -->
+	<!--   <div id="hero-parallax" class="is-bg-parallax bg-home" onscroll="onScrollBlur"> -->
+	<!-- 	<\!-- <div class="hero-body hero-body-trans-20"> -\-> -->
+	<!-- 	  <div class="container title-container has-text-centered"> -->
+	<!-- 		<h1 class="title title-name"> -->
+	<!-- 		  32 Chardonnay Dr., Thornhill, ON -->
+	<!-- 		</h1> -->
+	<!-- 		<h2 class="subtitle subtitle-name has-text-weight-bold"> -->
+	<!-- 		  Speech-Language Therapy, Massage, Osteopathy and Acupuncture -->
+	<!-- 		</h2> -->
+	<!-- 	  </div> -->
+	<!-- 	<\!-- </div> -\-> -->
+	<!--   </div> -->
+	<!-- </section> -->
+	<!-- /parallax hero -->
+
+    <!-- offers section cards -->
+	  <section class="hero is-medium section">
+		<div class="container">
+		  <div class="content has-text-centered">
+			<h2 class="title title-services">Thornhill Wellness Medical Clinic</h2>
+			<p class="subtitle"></p>
+		  </div>
+		  <div class="columns service-offers is-9">
+
+
+			<div class="column">
+			  <a href="#">
+				<div class="card is-one-third">
+				  <div class="card-image">
+					<figure class="image is-4by3">
+					  <img src="./img/speech-pathology.jpg"
+						   alt="Essential oils">
+					</figure>
+				  </div>
+				  <header class="header-card">
+					<p class="card-header-subtitle">
+					  Speech-Language Therapy
+					</p>
+				  </header>
+				</div>
+			  </a>
+			</div>
+
+
+			<div class="column">
+			  <a href=""><!-- ./rates-and-services.html#full-body -->
+				<div class="card is-one-third">
+				  <div class="card-image">
+					<figure class="image is-4by3">
+					  <img src="./img/service-full-body.webp"
+						   alt="full body massage">
+					</figure>
+				  </div>
+				  <header class="header-card">
+					<p class="card-header-title">
+					  Massage
+					</p>
+					<!-- <p class="card-header-subtitle"> Swedish &amp; Deep Tissue </p> -->
+				  </header>
+				</div>
+			  </a>
+			</div>
+
+
+			<div class="column">
+			  <a href="#">
+				<div class="card is-one-third">
+				  <div class="card-image">
+					<figure class="image is-4by3">
+					  <img src="./img/cranial-osteopathy.jpg"
+						   alt="Person lying down receiving a foot massage to the souls of their foot">
+					</figure>
+				  </div>
+				  <header class="header-card">
+					<p class="card-header-title">
+					  Osteopathy
+					</p>
+				  </header>
+				</div>
+			  </a>
+			</div>
+
+			<div class="column">
+			  <a href="#"><!-- ./rates-and-services.html#reflexology -->
+				<div class="card is-one-third">
+				  <div class="card-image">
+					<figure class="image is-4by3">
+					  <img src="./img/service-reflexology.webp"
+						   alt="Person lying down receiving a foot massage to the souls of their foot">
+					</figure>
+				  </div>
+				  <header class="header-card">
+					<p class="card-header-title">
+					  Acupuncture
+					</p>
+				  </header>
+				</div>
+			  </a>
+			</div>
+
+		  </div>
+		</div>
+	  </section>
+
+
+	<div>
+
+	  <!-- <section class="hero is-large is-bg bg-passion"> -->
+		<!-- 	<div class="hero-body container"> -->
+		  <!-- 		<div class="columns is-centered"> -->
+		    <!-- 			<div class="my-passion box has-text-centered column is-three-quarters content"> -->
+		      <!-- 				<h2 class="title"></h2> -->
+		      <!-- 				<p> -->
+		        <!-- 					<span></span> </h1> -->
+<!--                           <p>Discover how incredible you can feel -->
+  <!--                             naturally with focused, gentle and effective -->
+  <!--                             therapy care. Your life is waiting - get back -->
+  <!--                             to it!</p> -->
+<!-- 				</p> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+<!-- </section> -->
+
+<footer>
+  <section class="footer-content section">
+	<div class="container">
+	  <div class="columns content">
+		<div class="column content">
+		  <p class="footer-title">
+			32 Chardonnay Dr., Thornhill, ON
+		  </p>
+		</div>
+		<!-- <div class="column content"> -->
+		<!--   <p class="footer-title"> -->
+		<!-- 	Links -->
+		<!-- 	<ul> -->
+		<!-- 	  <li> -->
+		<!-- 		<a href="./rates-and-services.html"> -->
+		<!-- 		  Rates and Services -->
+		<!-- 		</a> -->
+		<!-- 	  </li> -->
+		<!-- 	  <li> -->
+		<!-- 		<a href="./manual-lymph-drainage.html"> -->
+		<!-- 		  Manual Lymph Drainage -->
+		<!-- 		</a> -->
+		<!-- 	  </li> -->
+		<!-- 	  <li> -->
+		<!-- 		<a href="./reiki-treatments.html"> -->
+		<!-- 		  Reiki Treatment -->
+		<!-- 		</a> -->
+		<!-- 	  </li> -->
+		<!-- 	</ul> -->
+		<!--   </p> -->
+		<!-- </div> -->
+		<div class="column content">
+		  <p class="footer-title">
+			<a href="./contact-us.html">
+			  Contact Us
+			</a>
+		  </p>
+		  <p>
+			<a>
+			  <i class="fas fa-phone"></i> : (416) 887-3478
+			</a>
+		  </p>
+		  <p>
+			<a rel="noopener" target="_blank">
+			  <i class="fas fa-envelope"></i> :
+			  <span class="email-link"> info@logoped.ca </span>
+			</a>
+		  </p>
+		</div>
+	  </div>
+	</div>
+  </section>
+
+</footer>
+
+</div>
+
+<script src="./js/script.js"></script>
 </body>
 
 </html>
