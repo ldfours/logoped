@@ -1,3 +1,4 @@
+# https://www.getzola.org/documentation/deployment/github-pages/
 on: push
 name: Build and deploy GH Pages
 jobs:
