@@ -1,0 +1,357 @@
+---
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Thornhill Wellness</title>
+  </head>
+  <body>
+    <header class="sticky top-0 w-full z-10">
+      <nav class="bg-gray-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <a href="/" aria-label="Go to homepage">
+                  <div class="h-8 w-8 text-gray-200 hover:text-white fill-current">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                      <path
+                        d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="hidden md:block">
+                <div class="ml-8 flex items-baseline">
+                  <a
+                    class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+                    href="#"
+                    title="Thornhill Wellness Medical Clinic"
+                    >Thornhill Wellness Medical Clinic
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="-mr-2 flex md:hidden">
+              <button
+                id="toggleMobileMenu"
+                class="icon inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+                aria-label="Menu"
+              >
+                <span id="mobile-icon-menu-unselected">
+                  <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </span>
+                <span id="mobile-icon-menu-selected" class="hidden">
+                  <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden px-2 pt-2 pb-3 sm:px-3">
+          <a
+            class="mt-1 block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+            href="#"
+            title="Thornhill Wellness Medical Clinic"
+            >Thornhill Wellness Medical Clinic
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <div id="content">
+      <div class="bg-sky-700 text-white shadow-md">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <div>
+            <div>
+              <span class="text-lg font-bold">info@logoped.ca</span><span class="font-normal">
+                &ndash; (416) 887-3478</span
+              >
+            </div>
+            <div><span class="font-normal">32 Chardonnay Dr., Thornhill, ON L4J0G1</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
+            <div class="flex-shrink-0">
+              <!-- TODO: add pages and enable links -->
+              <img
+                class="h-48 w-full object-cover"
+                src="/images/speech-pathologist.png"
+                alt="Speech-Language Therapy"
+              />
+              <!-- </a> -->
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <!-- <span class="text-sm leading-5 font-medium text-indigo-600">
+                <span class="mr-2 badge badge-green"><a href="">therapy</a></span>
+                -->
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Speech-Language Therapy</h3>
+                </a>
+                <p class="mt-3 text-base leading-6 text-gray-500">
+                  Licensed Speech-Language Pathologist provides excellent service for children and adults. Individual
+                  virtual care services offer support and convenience for our clients and their families.
+                </p>
+              </div>
+              <!-- <div class="mt-6 flex items-center"> -->
+              <!--   <div> -->
+              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
+              <!--       <time datetime="2023-07-29"> -->
+              <!--         July 29, 2023 -->
+              <!--       </time> -->
+              <!--       <span class="mx-1"> -->
+              <!--         &middot; -->
+              <!--       </span> -->
+              <!--       <span> -->
+              <!--         9 minutes reading time -->
+              <!--       </span> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" src="/images/massage-back.webp" alt="Massage Therapy" />
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Massage Therapy</h3>
+                </a>
+                <p class="mt-3 text-base leading-6 text-gray-500">
+                  Registered therapist is using different techniques, such as mobilizations, trigger point and
+                  myofascial release in order to release muscular tension, accommodating the needs of our clients
+                  whether it is to alleviate stress or facilitating recovery.
+                </p>
+              </div>
+              <!-- <div class="mt-6 flex items-center"> -->
+              <!--   <div> -->
+              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
+              <!--       <time datetime="2023-06-11"> -->
+              <!--         June 11, 2023 -->
+              <!--       </time> -->
+              <!--       <span class="mx-1"> -->
+              <!--         &middot; -->
+              <!--       </span> -->
+              <!--       <span> -->
+              <!--         0 minutes reading time -->
+              <!--       </span> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" src="/images/osteo-cranial.jpg" alt="Osteopathy" />
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Osteopathy</h3>
+                </a>
+                <p class="mt-3 text-base leading-6 text-gray-500">
+                  Targeted osteopathic treatment helps to restore an innate ability of body to heal itself through its
+                  natural processes. It balances your nervous, circulatory and lymphatic systems, improving range of
+                  motion and relieving pain, discomfort or other symptoms.
+                </p>
+              </div>
+              <!-- <div class="mt-6 flex items-center"> -->
+              <!--   <div> -->
+              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
+              <!--       <time datetime="2023-05-16"> -->
+              <!--         May 16, 2023 -->
+              <!--       </time> -->
+              <!--       <span class="mx-1"> -->
+              <!--         &middot; -->
+              <!--       </span> -->
+              <!--       <span> -->
+              <!--         11 minutes reading time -->
+              <!--       </span> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" src="/images/foot-reflexology.webp" alt="Acupuncture" />
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Acupuncture</h3>
+                </a>
+                <p class="mt-3 text-base leading-6 text-gray-500">
+                  Gentle and safe acupuncture and reflexotherapy treatment involves stimulating certain points on the
+                  body, with a sterile thin needle entering the skin, to relieve pain and treat various health
+                  conditions.
+                </p>
+              </div>
+              <!-- <div class="mt-6 flex items-center"> -->
+              <!--   <div> -->
+              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
+              <!--       <time datetime="2023-04-11"> -->
+              <!--         April 11, 2023 -->
+              <!--       </time> -->
+              <!--       <span class="mx-1"> -->
+              <!--         &middot; -->
+              <!--       </span> -->
+              <!--       <span> -->
+              <!--         0 minutes reading time -->
+              <!--       </span> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" src="/images/social-worker.png" alt="Social Worker Counselling" />
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Social Worker Counselling</h3>
+                </a>
+                <p class="mt-3 text-base leading-6 text-gray-500">
+                  Experienced professional will identify the source of stress or difficulty, help to develop coping
+                  skills and find effective solutions to your problems. We offer various forms of counselling and
+                  therapy, and mediate between conflicts.
+                </p>
+              </div>
+              <!-- <div class="mt-6 flex items-center"> -->
+              <!--   <div> -->
+              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
+              <!--       <time datetime="2023-03-11"> -->
+              <!--         March 11, 2023 -->
+              <!--       </time> -->
+              <!--       <span class="mx-1"> -->
+              <!--         &middot; -->
+              <!--       </span> -->
+              <!--       <span> -->
+              <!--         0 minutes reading time -->
+              <!--       </span> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
+            <div class="flex-shrink-0">
+              <img
+                class="h-48 w-full object-cover"
+                src="/images/compression-stockings.jpg"
+                alt="Compression Stockings and Braces"
+              />
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <!-- <span class="text-sm leading-5 font-medium text-indigo-600">
+                <span class="mr-2 badge badge-green"><a href="">device</a></span>
+                </span>
+                -->
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Compression Stockings and Braces</h3>
+                </a>
+                <p class="mt-3 text-base leading-6 text-gray-500">
+                  Compression therapy is a common treatment to help improve blood flow in your lower legs. Trained staff
+                  will help you to choose a suitable item, measure you to ensure a good fit and instruct you on how to
+                  put compression stockings or braces on and take them off.
+                </p>
+              </div>
+              <!-- <div class="mt-6 flex items-center"> -->
+              <!--   <div> -->
+              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
+              <!--       <time datetime="2023-02-11"> -->
+              <!--         February 11, 2023 -->
+              <!--       </time> -->
+              <!--       <span class="mx-1"> -->
+              <!--         &middot; -->
+              <!--       </span> -->
+              <!--       <span> -->
+              <!--         1 minute reading time -->
+              <!--       </span> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+
+        <nav class="mt-10 flex justify-between"></nav>
+      </div>
+    </div>
+    <footer>
+      <!-- Social Media Icons -->
+      <div class="mt-4 flex justify-center">
+        <a
+          rel="me"
+          href="https://www.youtube.com/@logopedcanada"
+          title="Youtube"
+          class="ml-8 text-gray-400 hover:text-gray-500"
+        >
+          <span class="sr-only">youtube</span>
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"
+            ><path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.49614 7.13176C9.18664 6.9549 8.80639 6.95617 8.49807 7.13509C8.18976 7.31401 8 7.64353 8 8V16C8 16.3565 8.18976 16.686 8.49807 16.8649C8.80639 17.0438 9.18664 17.0451 9.49614 16.8682L16.4961 12.8682C16.8077 12.6902 17 12.3589 17 12C17 11.6411 16.8077 11.3098 16.4961 11.1318L9.49614 7.13176ZM13.9844 12L10 14.2768V9.72318L13.9844 12Z"
+            ></path><path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 12C0 8.25027 0 6.3754 0.954915 5.06107C1.26331 4.6366 1.6366 4.26331 2.06107 3.95491C3.3754 3 5.25027 3 9 3H15C18.7497 3 20.6246 3 21.9389 3.95491C22.3634 4.26331 22.7367 4.6366 23.0451 5.06107C24 6.3754 24 8.25027 24 12C24 15.7497 24 17.6246 23.0451 18.9389C22.7367 19.3634 22.3634 19.7367 21.9389 20.0451C20.6246 21 18.7497 21 15 21H9C5.25027 21 3.3754 21 2.06107 20.0451C1.6366 19.7367 1.26331 19.3634 0.954915 18.9389C0 17.6246 0 15.7497 0 12ZM9 5H15C16.9194 5 18.1983 5.00275 19.1673 5.10773C20.0989 5.20866 20.504 5.38448 20.7634 5.57295C21.018 5.75799 21.242 5.98196 21.4271 6.23664C21.6155 6.49605 21.7913 6.90113 21.8923 7.83269C21.9973 8.80167 22 10.0806 22 12C22 13.9194 21.9973 15.1983 21.8923 16.1673C21.7913 17.0989 21.6155 17.504 21.4271 17.7634C21.242 18.018 21.018 18.242 20.7634 18.4271C20.504 18.6155 20.0989 18.7913 19.1673 18.8923C18.1983 18.9973 16.9194 19 15 19H9C7.08058 19 5.80167 18.9973 4.83269 18.8923C3.90113 18.7913 3.49605 18.6155 3.23664 18.4271C2.98196 18.242 2.75799 18.018 2.57295 17.7634C2.38448 17.504 2.20866 17.0989 2.10773 16.1673C2.00275 15.1983 2 13.9194 2 12C2 10.0806 2.00275 8.80167 2.10773 7.83269C2.20866 6.90113 2.38448 6.49605 2.57295 6.23664C2.75799 5.98196 2.98196 5.75799 3.23664 5.57295C3.49605 5.38448 3.90113 5.20866 4.83269 5.10773C5.80167 5.00275 7.08058 5 9 5Z"
+            ></path></svg
+          >
+        </a>
+
+        <a
+          href="https://www.instagram.com/logoped_canada/"
+          title="Instagram"
+          class="ml-8 text-gray-400 hover:text-gray-500"
+        >
+          <span class="sr-only">instagram</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 2500 2500"
+            ><path
+              d="M833.4,1250c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7S833.4,1480.11,833.4,1250m-225.26,0c0,354.5,287.36,641.86,641.86,641.86S1891.86,1604.5,1891.86,1250,1604.5,608.14,1250,608.14,608.14,895.5,608.14,1250M1767.27,582.69a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M745,2267.47c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27s373.28,1.31,505.15,7.27c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M734.65,7.57c-133.07,6.06-224,27.16-303.41,58.06C349,97.54,279.38,140.35,209.81,209.81S97.54,349,65.63,431.24c-30.9,79.46-52,170.34-58.06,303.41C1.41,867.93,0,910.54,0,1250s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43S349,2402.37,431.24,2434.37c79.56,30.9,170.34,52,303.41,58.06C868,2498.49,910.54,2500,1250,2500s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2150.95,97.54,2068.86,65.63c-79.56-30.9-170.44-52.1-303.41-58.06C1632.17,1.51,1589.56,0,1250.1,0S868,1.41,734.65,7.57"
+            ></path><path
+              d="M833.4,1250c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7S833.4,1480.11,833.4,1250m-225.26,0c0,354.5,287.36,641.86,641.86,641.86S1891.86,1604.5,1891.86,1250,1604.5,608.14,1250,608.14,608.14,895.5,608.14,1250M1767.27,582.69a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M745,2267.47c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27s373.28,1.31,505.15,7.27c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M734.65,7.57c-133.07,6.06-224,27.16-303.41,58.06C349,97.54,279.38,140.35,209.81,209.81S97.54,349,65.63,431.24c-30.9,79.46-52,170.34-58.06,303.41C1.41,867.93,0,910.54,0,1250s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43S349,2402.37,431.24,2434.37c79.56,30.9,170.34,52,303.41,58.06C868,2498.49,910.54,2500,1250,2500s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2150.95,97.54,2068.86,65.63c-79.56-30.9-170.44-52.1-303.41-58.06C1632.17,1.51,1589.56,0,1250.1,0S868,1.41,734.65,7.57"
+            ></path></svg
+          >
+        </a>
+      </div>
+      <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-center text-base leading-6"></p>
+
+        <div class="mt-4">
+          <p class="text-center text-base leading-6 text-gray-400">&#169;2023 Thornhill Wellness</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
