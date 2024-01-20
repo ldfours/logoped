@@ -1,5 +1,5 @@
 ---
-
+import Category from "../components/Category.astro"
 ---
 
 <html lang="en">
@@ -89,219 +89,52 @@
 
       <div class="container max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
-            <div class="flex-shrink-0">
-              <!-- TODO: add pages and enable links -->
-              <img
-                class="h-48 w-full object-cover"
-                src="/images/speech-pathologist.png"
-                alt="Speech-Language Therapy"
-              />
-              <!-- </a> -->
-            </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <!-- <span class="text-sm leading-5 font-medium text-indigo-600">
-                <span class="mr-2 badge badge-green"><a href="">therapy</a></span>
-                -->
-                <a href="#" class="block">
-                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Speech-Language Therapy</h3>
-                </a>
-                <p class="mt-3 text-base leading-6 text-gray-500">
-                  Licensed Speech-Language Pathologist provides excellent service for children and adults. Individual
-                  virtual care services offer support and convenience for our clients and their families.
-                </p>
-              </div>
-              <!-- <div class="mt-6 flex items-center"> -->
-              <!--   <div> -->
-              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
-              <!--       <time datetime="2023-07-29"> -->
-              <!--         July 29, 2023 -->
-              <!--       </time> -->
-              <!--       <span class="mx-1"> -->
-              <!--         &middot; -->
-              <!--       </span> -->
-              <!--       <span> -->
-              <!--         9 minutes reading time -->
-              <!--       </span> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
+          <Category
+            image="speech-pathologist.png"
+            title="Speech-Language Therapy"
+            description="Licensed Speech-Language Pathologist provides excellent service for children and adults. Individual
+                  virtual care services offer support and convenience for our clients and their families."
+          />
 
-          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
-            <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" src="/images/massage-back.webp" alt="Massage Therapy" />
-            </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <a href="#" class="block">
-                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Massage Therapy</h3>
-                </a>
-                <p class="mt-3 text-base leading-6 text-gray-500">
-                  Registered therapist is using different techniques, such as mobilizations, trigger point and
+          <Category
+            image="massage-back.webp"
+            title="Massage Therapy"
+            description="Registered therapist is using different techniques, such as mobilizations, trigger point and
                   myofascial release in order to release muscular tension, accommodating the needs of our clients
-                  whether it is to alleviate stress or facilitating recovery.
-                </p>
-              </div>
-              <!-- <div class="mt-6 flex items-center"> -->
-              <!--   <div> -->
-              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
-              <!--       <time datetime="2023-06-11"> -->
-              <!--         June 11, 2023 -->
-              <!--       </time> -->
-              <!--       <span class="mx-1"> -->
-              <!--         &middot; -->
-              <!--       </span> -->
-              <!--       <span> -->
-              <!--         0 minutes reading time -->
-              <!--       </span> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
+                  whether it is to alleviate stress or facilitating recovery."
+          />
 
-          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
-            <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" src="/images/osteo-cranial.jpg" alt="Osteopathy" />
-            </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <a href="#" class="block">
-                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Osteopathy</h3>
-                </a>
-                <p class="mt-3 text-base leading-6 text-gray-500">
-                  Targeted osteopathic treatment helps to restore an innate ability of body to heal itself through its
+          <Category
+            image="osteo-cranial.jpg"
+            title="Osteopathy"
+            description="Targeted osteopathic treatment helps to restore an innate ability of body to heal itself through its
                   natural processes. It balances your nervous, circulatory and lymphatic systems, improving range of
-                  motion and relieving pain, discomfort or other symptoms.
-                </p>
-              </div>
-              <!-- <div class="mt-6 flex items-center"> -->
-              <!--   <div> -->
-              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
-              <!--       <time datetime="2023-05-16"> -->
-              <!--         May 16, 2023 -->
-              <!--       </time> -->
-              <!--       <span class="mx-1"> -->
-              <!--         &middot; -->
-              <!--       </span> -->
-              <!--       <span> -->
-              <!--         11 minutes reading time -->
-              <!--       </span> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
+                  motion and relieving pain, discomfort or other symptoms."
+          />
 
-          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
-            <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" src="/images/foot-reflexology.webp" alt="Acupuncture" />
-            </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <a href="#" class="block">
-                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Acupuncture</h3>
-                </a>
-                <p class="mt-3 text-base leading-6 text-gray-500">
-                  Gentle and safe acupuncture and reflexotherapy treatment involves stimulating certain points on the
+          <Category
+            image="foot-reflexology.webp"
+            title="Acupuncture"
+            description="Gentle and safe acupuncture and reflexotherapy treatment involves stimulating certain points on the
                   body, with a sterile thin needle entering the skin, to relieve pain and treat various health
-                  conditions.
-                </p>
-              </div>
-              <!-- <div class="mt-6 flex items-center"> -->
-              <!--   <div> -->
-              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
-              <!--       <time datetime="2023-04-11"> -->
-              <!--         April 11, 2023 -->
-              <!--       </time> -->
-              <!--       <span class="mx-1"> -->
-              <!--         &middot; -->
-              <!--       </span> -->
-              <!--       <span> -->
-              <!--         0 minutes reading time -->
-              <!--       </span> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
+                  conditions."
+          />
 
-          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
-            <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" src="/images/social-worker.png" alt="Social Worker Counselling" />
-            </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <a href="#" class="block">
-                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Social Worker Counselling</h3>
-                </a>
-                <p class="mt-3 text-base leading-6 text-gray-500">
-                  Experienced professional will identify the source of stress or difficulty, help to develop coping
+          <Category
+            image="social-worker.png"
+            title="Social Worker Counselling"
+            description="Experienced professional will identify the source of stress or difficulty, help to develop coping
                   skills and find effective solutions to your problems. We offer various forms of counselling and
-                  therapy, and mediate between conflicts.
-                </p>
-              </div>
-              <!-- <div class="mt-6 flex items-center"> -->
-              <!--   <div> -->
-              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
-              <!--       <time datetime="2023-03-11"> -->
-              <!--         March 11, 2023 -->
-              <!--       </time> -->
-              <!--       <span class="mx-1"> -->
-              <!--         &middot; -->
-              <!--       </span> -->
-              <!--       <span> -->
-              <!--         0 minutes reading time -->
-              <!--       </span> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
+                  therapy, and mediate between conflicts."
+          />
 
-          <div class="flex flex-col rounded-md shadow-md overflow-hidden">
-            <div class="flex-shrink-0">
-              <img
-                class="h-48 w-full object-cover"
-                src="/images/compression-stockings.jpg"
-                alt="Compression Stockings and Braces"
-              />
-            </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <!-- <span class="text-sm leading-5 font-medium text-indigo-600">
-                <span class="mr-2 badge badge-green"><a href="">device</a></span>
-                </span>
-                -->
-                <a href="#" class="block">
-                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">Compression Stockings and Braces</h3>
-                </a>
-                <p class="mt-3 text-base leading-6 text-gray-500">
-                  Compression therapy is a common treatment to help improve blood flow in your lower legs. Trained staff
+          <Category
+            image="compression-stockings.jpg"
+            title="Compression Stockings and Braces"
+            description="Compression therapy is a common treatment to help improve blood flow in your lower legs. Trained staff
                   will help you to choose a suitable item, measure you to ensure a good fit and instruct you on how to
-                  put compression stockings or braces on and take them off.
-                </p>
-              </div>
-              <!-- <div class="mt-6 flex items-center"> -->
-              <!--   <div> -->
-              <!--     <div class="flex text-sm leading-5 text-gray-500"> -->
-              <!--       <time datetime="2023-02-11"> -->
-              <!--         February 11, 2023 -->
-              <!--       </time> -->
-              <!--       <span class="mx-1"> -->
-              <!--         &middot; -->
-              <!--       </span> -->
-              <!--       <span> -->
-              <!--         1 minute reading time -->
-              <!--       </span> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
+                  put compression stockings or braces on and take them off."
+          />
         </div>
 
         <nav class="mt-10 flex justify-between"></nav>
